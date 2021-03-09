@@ -1,14 +1,22 @@
-- name: Training
+- name: Home
   link: /
   new_window: false
   highlight: false
-- name: Our Story
+- name: About Us
   link: /about/
   new_window: false
-  #  highlight: false
-  #- name: Contact
-  #  link: /contact/
-  #  new_window: false
-  #  highlight: false
-  #- name: Demo
-  #  link: "https://mybuddy.cryingbaby.in"
+  highlight: false
+- name: Services
+  link: /contact/
+  new_window: false
+  highlight: false
+- name: Careers
+  link: /contact/
+  new_window: false
+  highlight: false
+- name: Contact Us
+  link: /contact/
+  new_window: false
+  highlight: false
+
+
