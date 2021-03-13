@@ -49,6 +49,7 @@
       <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav id="navbar" class="navbar">
+	      <ul>
 	      {% for link in site.data.navigation %}
 		{% assign class = "nav-link scrollto" %}
 		{% if link.highlight %}
@@ -58,8 +59,10 @@
 		{% if link.link == page.url %}
 			{% assign class = "nav-link scrollto" | append: " active" %}
 		{% endif %}
-		<a href="" class="{{ class }}" {% if link.new_window %}target="_blank"{% endif %}>{{ link.name }}</a>
+
+		<li><a href="" class="{{ class }}" {% if link.new_window %}target="_blank"{% endif %}>{{ link.name }}</a></li>
 	{% endfor %}
+	      </ul>
        <!-- <ul>
 		<li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
