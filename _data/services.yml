@@ -15,4 +15,7 @@
 - name: "Digital Marketing"
   icon: "bx bx-code-alt"
   description: "Content Marketing | Social Marketing | SEO Optimisation | Web Development |App Development |"
+- name: "SRE & NOC"
+  icon: "bx bxs-cog"
+  description: "24 x 7 Support Application / Infrastructure Support | Proactive monitoring & remediation | "
 
