@@ -2,7 +2,7 @@
 # Icons Class Select : | bx bxl-dribbble | bx bx-file | bx bx-tachometer | bx bx-layer
 
 - name: "Cloud Ops"
-  icon: "bx bxl-dribbble"
+  icon: "bx bx-cloud"
   description: "Cloud Strategy | Consultation | Migration | Automation | Cost Optimisation"
 - name: "DevOps"
   icon: "bx bx-tachometer"
