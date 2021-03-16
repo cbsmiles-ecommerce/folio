@@ -1,4 +1,9 @@
 ---
+#https://iconify.design/icon-sets/bx/
 - name: "Cloud Ops"
   icon: "bx bx-cloud"
   description: "Cloud Strategy | Consultation | Migration | Automation | Cost Optimisation"
+- name: "DevOps"
+  icon: "bx bx-code-block"
+  description: "Infra Automation | Performance Optimisation | Continuous Integration  & Deployment | Configuration Management | Monitoring & Alerting | DR Strategy |"
+
