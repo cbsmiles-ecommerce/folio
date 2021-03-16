@@ -6,4 +6,13 @@
 - name: "DevOps"
   icon: "bx bx-code-block"
   description: "Infra Automation | Performance Optimisation | Continuous Integration  & Deployment | Configuration Management | Monitoring & Alerting | DR Strategy |"
+- name: "Data & Analytics"
+  icon: "bx bx-coin-stack"
+  description: "Data Analysis | Data Visualisation | Data Migration | Data DevOps | Reporting |"
+- name: "Security"
+  icon: "bx bx-check-shield"
+  description: "DevSecOps | Security Assessment | Cloud Security | IT Infra Security | Risk Management | ITSM | IT Auditing |"
+- name: "Digital Marketing"
+  icon: "bx bx-code-alt"
+  description: "Content Marketing | Social Marketing | SEO Optimisation | Web Development |App Development |"
 
