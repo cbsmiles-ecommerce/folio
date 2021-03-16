@@ -16,9 +16,9 @@
   icon: "bx bx-code-alt"
   description: "Content Marketing | Social Marketing | SEO Optimisation | Web Development |App Development |"
 - name: "SRE & NOC"
-  icon: "bx bxs-support"
+  icon: "bx bx-support"
   description: "24 x 7 Support Application / Infrastructure Support | Proactive monitoring & remediation | "
 - name: "Trainings"
-  icon: "bx bx-edit"
+  icon: "bx bxs-layer-plus"
   description: "Instructor-led Training | Virtual Classroom Training | Corporate Trainings "
 
