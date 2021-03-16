@@ -1,18 +1,4 @@
 ---
-# Icons Class Select : | bx bxl-dribbble | bx bx-file | bx bx-tachometer | bx bx-layer
-
 - name: "Cloud Ops"
   icon: "bx bx-cloud"
   description: "Cloud Strategy | Consultation | Migration | Automation | Cost Optimisation"
-  #- name: "DevOps"
-  #icon: "bx bx-tachometer"
-  #description: "Infra Automation | Performance Optimisation | Continuous Integration  & Deployment | Configuration Management | Monitoring & Alerting | DR Strategy"
-  #- name: "Data & Analytics"
-  #icon: "bx bx-file"
-  #description: "Data Analysis | Data Visualisation | Data Migration | Data DevOps | Reporting "
-  #- name: "Security"
-  #icon: "bx bx-layer"
-  #description: "DevSecOps | Security Assessment | Cloud Security | IT Infra Security | Risk Management | ITSM | IT Auditing "
-  #- name: "Digital Marketing"
-  #icon: "bx bxl-dribbble"
-  # description: "Content Marketing | Social Marketing | SEO Optimisation | Web Development |App Development"
