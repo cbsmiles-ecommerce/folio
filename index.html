@@ -311,7 +311,20 @@
         </div>
 
         <div class="row">
-          <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                {% for service in site.data.services %}
+
+	<div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+		    <div class="icon"><i class="bx {{ service.icon }}"></i></div>
+	      <h4><a href=""> {{ service.name }} </a></h4>
+	      <p> {{ service.description }} </p>
+            </div>
+          </div>
+
+        {% endfor %}
+
+
+	<div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
 	      <h4><a href=""></a></h4>
