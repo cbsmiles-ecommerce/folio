@@ -1,4 +1,6 @@
 ---
+# Icons Class Select : | bx bxl-dribbble | bx bx-file | bx bx-tachometer | bx bx-layer
+
 - name: "Cloud Ops"
-  icon: "bx-file"
+  icon: "bx bxl-dribbble"
   description: "Cloud Strategy | Consultation | Migration | Automation | Cost Optimisation"
