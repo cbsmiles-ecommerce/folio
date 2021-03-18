@@ -21,4 +21,6 @@
 - name: "Trainings"
   icon: "bx bxs-layer-plus"
   description: "Instructor-led Training | Virtual Classroom Training | Corporate Trainings "
-
+- name: "Storage"
+  icon: "bx bxs-layer-plus"
+  description: "Data Replication |Automated server backup| DAT/ DLT/ Tape Library | NAS/ SAN Unified data storage solutions"
