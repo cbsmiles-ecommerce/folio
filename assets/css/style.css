@@ -1814,7 +1814,7 @@ section {
   letter-spacing: .15em; /* Adjust as needed */
   animation: 
     typing 2.5s steps(30, end),
-    blink-caret .3s step-end infinite;
+    blink-caret .10s step-end infinite;
 }
 
 /* The typing effect */
