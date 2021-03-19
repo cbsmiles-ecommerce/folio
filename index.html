@@ -159,6 +159,8 @@
       </div>
     </section><!-- End Cliens Section -->
    {% endif %}
+
+   {% if site.about_us %}
     <!-- ======= About Us Section ======= -->
     <section id="about" class="about">
       <div class="container" data-aos="fade-up">
@@ -198,7 +200,11 @@
       </div>
     </section><!-- End About Us Section -->
 
+    {% endif %}
+
     <!-- ======= Why Us Section ======= -->
+
+    {% if site.why_us %}
     <section id="why-us" class="why-us section-bg">
       <div class="container-fluid" data-aos="fade-up">
 
@@ -253,7 +259,10 @@
       </div>
     </section><!-- End Why Us Section -->
 
+   {% end if %}
     <!-- ======= Skills Section ======= -->
+
+    {% if site.skills %}
     <section id="skills" class="skills">
       <div class="container" data-aos="fade-up">
 
@@ -305,8 +314,11 @@
 
       </div>
     </section><!-- End Skills Section -->
+    {% endif %}
 
     <!-- ======= Services Section ======= -->
+
+    {% if site.services %}
     <section id="services" class="services section-bg">
       <div class="container" data-aos="fade-up">
 
@@ -331,8 +343,12 @@
 
       </div>
     </section><!-- End Services Section -->
+  
+    {% endif %}
 
     <!-- ======= Cta Section ======= -->
+
+    {% if site.cta %}
     <section id="cta" class="cta">
       <div class="container" data-aos="zoom-in">
 
@@ -349,7 +365,10 @@
       </div>
     </section><!-- End Cta Section -->
 
+    {% endif %}
     <!-- ======= Portfolio Section ======= -->
+
+    {% if site.portfolio %}
     <section id="portfolio" class="portfolio">
       <div class="container" data-aos="fade-up">
 
@@ -462,7 +481,10 @@
       </div>
     </section><!-- End Portfolio Section -->
 
+    {% endif %}
+
     <!-- ======= Team Section ======= -->
+    {% if site.team %}
     <section id="team" class="team section-bg">
       <div class="container" data-aos="fade-up">
 
@@ -546,7 +568,10 @@
       </div>
     </section><!-- End Team Section -->
 
+    {% endif %}
+
     <!-- ======= Pricing Section ======= -->
+    {% if site.pricing %}
     <section id="pricing" class="pricing">
       <div class="container" data-aos="fade-up">
 
@@ -607,7 +632,10 @@
       </div>
     </section><!-- End Pricing Section -->
 
+    {% endif %}
+
     <!-- ======= Frequently Asked Questions Section ======= -->
+    {% if site.faq %}
     <section id="faq" class="faq section-bg">
       <div class="container" data-aos="fade-up">
 
@@ -669,7 +697,10 @@
       </div>
     </section><!-- End Frequently Asked Questions Section -->
 
+    {% endif %}
+
     <!-- ======= Contact Section ======= -->
+    {% if site.contact %}
     <section id="contact" class="contact">
       <div class="container" data-aos="fade-up">
 
@@ -738,6 +769,8 @@
 
       </div>
     </section><!-- End Contact Section -->
+
+    {% endif %}
 
   </main><!-- End #main -->
 
