@@ -1814,12 +1814,11 @@ section {
   }
 }
 
-@keyframes blink-caret {
+@keyframes caret {
   0%, 100% {
     opacity: 0;
   }
   50% {
-    border-color: orange;
     opacity: 1;
   }
 }
