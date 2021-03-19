@@ -1810,7 +1810,7 @@ section {
     width: 0;
   }
   20%, 80% {
-    width: 15.2em;
+    width: 20.2em;
   }
 }
 
@@ -1831,7 +1831,7 @@ section {
   animation: typewriter;
   display: inline-block;
   position: relative;
-  animation-duration: 10s;
+  animation-duration: 15s;
   animation-timing-function: steps(30, end);
   animation-iteration-count: infinite;
 }
