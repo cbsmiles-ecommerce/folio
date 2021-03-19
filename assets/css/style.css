@@ -387,7 +387,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h2 {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgb(137, 187, 27);
   margin-bottom: 50px;
   font-size: 24px;
 }
@@ -1824,10 +1824,10 @@ section {
   }
 }
 
-.tagline h2 {
+.tagline h3 {
   overflow: hidden;
   white-space: nowrap;
-  color: #96c729;
+  color: #f5f7f0;
   font-family: sans-serif;
   animation: typewriter;
   display: inline-block;
@@ -1838,7 +1838,7 @@ section {
 }
 
 
-.tagline::after h2 {
+.tagline::after h3 {
   content: "|";
   position: absolute;
   right: 1;
