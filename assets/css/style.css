@@ -1844,6 +1844,7 @@ section {
 
 .tagline::after {
   content: "|";
+  color: #f5f7f0;
   position: absolute;
   right: 0;
   animation: caret infinite;
