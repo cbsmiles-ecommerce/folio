@@ -1796,8 +1796,14 @@ section {
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  #footer .copyright, #footer .credits {/* DEMO-SPECIFIC STYLES */
-  
+}
+  #footer .copyright, #footer .credits { /* DEMO-SPECIFIC STYLES */
+    text-align: center;
+    float: none;
+  }
+  #footer .credits {
+    padding-top: 4px;
+  }
 .typewriter h1 {
   color: #fff;
   font-family: monospace;
@@ -1822,11 +1828,3 @@ section {
   from, to { border-color: transparent }
   50% { border-color: orange }
 }
-    text-align: center;
-    float: none;
-  }
-  #footer .credits {
-    padding-top: 4px;
-  }
-}
-
