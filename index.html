@@ -127,11 +127,13 @@
       <div class="container">
 
         <div class="row" data-aos="zoom-in">
-
+        {% for clients in site.data.clients %}
+	   {% assign client-no = clients.sno %}
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+		  <img src="assets/img/clients/client-{{ client-no }}.png" class="img-fluid" alt="">
           </div>
-
+	  {% endfor %}
+<!--
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
             <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
           </div>
@@ -151,7 +153,7 @@
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
             <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
           </div>
-
+-->
         </div>
 
       </div>
