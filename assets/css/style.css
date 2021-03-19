@@ -1823,7 +1823,7 @@ section {
   }
 }
 
-.tagline h3 {
+.tagline {
   overflow: hidden;
   white-space: nowrap;
   color: #f5f7f0;
@@ -1837,7 +1837,7 @@ section {
 }
 
 
-.tagline::after h3 {
+.tagline::after {
   content: "|";
   position: absolute;
   right: 0;
