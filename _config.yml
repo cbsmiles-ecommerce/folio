@@ -4,13 +4,13 @@
 title: CryingBaby
 company: Uneritx
 clients: false
-about_us: true
+about_us: false
 why_us: false
 skills: false
-services: true
+services: false
 cta: false
 portfolio: false
 team: false
 pricing: false
-faq: true
+faq: false
 contact: true
